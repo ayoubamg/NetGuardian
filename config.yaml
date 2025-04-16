@@ -1,0 +1,2 @@
+alert_interval: 10  # seconds
+use_sound: false
