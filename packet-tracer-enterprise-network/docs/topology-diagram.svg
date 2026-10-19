@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650">
+  <rect width="1100" height="650" fill="#f8fafc"/>
+  <text x="550" y="48" font-family="Arial,sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#0f172a">Enterprise Network Design &amp; Security</text>
+  <text x="550" y="78" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="#475569">Cisco Packet Tracer lab • VLAN segmentation • DHCP • Inter-VLAN routing • Guest ACL</text>
+  <g stroke="#64748b" stroke-width="3" fill="none">
+    <path d="M550 190 V260"/>
+    <path d="M550 330 V385 H160 V445"/>
+    <path d="M550 385 H420 V445"/>
+    <path d="M550 385 H680 V445"/>
+    <path d="M550 385 H940 V445"/>
+  </g>
+  <g>
+    <rect x="380" y="105" width="340" height="85" rx="14" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+    <text x="550" y="139" font-family="Arial,sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#1e3a8a">R1 • Router</text>
+    <text x="550" y="165" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="#1e40af">802.1Q subinterfaces + DHCP</text>
+    <rect x="380" y="260" width="340" height="70" rx="14" fill="#e2e8f0" stroke="#475569" stroke-width="2"/>
+    <text x="550" y="290" font-family="Arial,sans-serif" font-size="21" font-weight="700" text-anchor="middle" fill="#0f172a">SW1 • Layer 2 Switch</text>
+    <text x="550" y="313" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="#334155">Trunk: VLANs 10, 20, 30, 40, 99</text>
+    <rect x="65" y="445" width="190" height="100" rx="12" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+    <text x="160" y="475" font-family="Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#166534">Admin-PC</text>
+    <text x="160" y="502" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="#166534">VLAN 10</text>
+    <text x="160" y="524" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="#166534">192.168.10.0/24</text>
+    <rect x="325" y="445" width="190" height="100" rx="12" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+    <text x="420" y="475" font-family="Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#92400e">IT-PC</text>
+    <text x="420" y="502" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="#92400e">VLAN 20</text>
+    <text x="420" y="524" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="#92400e">192.168.20.0/24</text>
+    <rect x="585" y="445" width="190" height="100" rx="12" fill="#f3e8ff" stroke="#9333ea" stroke-width="2"/>
+    <text x="680" y="475" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle" fill="#6b21a8">Employee-PC</text>
+    <text x="680" y="502" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="#6b21a8">VLAN 30</text>
+    <text x="680" y="524" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="#6b21a8">192.168.30.0/24</text>
+    <rect x="845" y="445" width="190" height="100" rx="12" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+    <text x="940" y="475" font-family="Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#991b1b">Guest-PC</text>
+    <text x="940" y="502" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="#991b1b">VLAN 40 • ACL</text>
+    <text x="940" y="524" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="#991b1b">192.168.40.0/24</text>
+  </g>
+  <text x="550" y="600" font-family="Arial,sans-serif" font-size="14" text-anchor="middle" fill="#64748b">Conceptual design only — build and validate the topology in Packet Tracer before claiming test results.</text>
+</svg>
